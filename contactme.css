@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Open+Sans&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: arial;
+}
+.container{
+    display:flex;
+}
+.sidebar{
+    background-color: #0078D7;
+    width: 200px;
+    height: 100vh;
+
+}
+.sidebar nav{
+    padding:40px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.sidebar nav a{
+    text-decoration: none;
+    color: white;
+}
+.contactform{
+    padding-top: 2rem;
+    padding-left: 3rem;
+    width:80vw;
+    /* text-align: center; */
+}
+.contactform h1{
+    font-weight: bold;
+    font-size: 2.5rem;
+    /* text-align: center; */
+}
+
+.contactform form div{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 30vw;
+    border-radius: 0.3rem;
+    margin: 0.5rem 0 0;
+    padding:0.3rem;
+
+}
+
+#emailHelp{
+    font-size: 0.6rem;
+    color: #0078D7;
+    padding-bottom: 0;
+}
+
+#form-check{
+    display: flex;
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 1.5rem;
+    margin:0.2rem;
+}
+.btn{
+    padding: 0.5rem 0.8rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: #0078D7;
+    font-weight: bold;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #0078D7;
+}
